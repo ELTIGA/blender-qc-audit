@@ -1,0 +1,16 @@
+{
+  "name": "blender-qc-audit",
+  "owner": {
+    "name": "Ahmed Eltigani"
+  },
+  "metadata": {
+    "description": "Headless QC audit for Blender scenes built or edited by AI agents."
+  },
+  "plugins": [
+    {
+      "name": "blender-qc-audit",
+      "source": "./",
+      "description": "Headless QC audit for Blender scenes built or edited by AI agents: physics plausibility, camera, lighting, materials, API traps, rendered evidence."
+    }
+  ]
+}

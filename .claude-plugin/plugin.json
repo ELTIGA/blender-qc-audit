@@ -1,0 +1,10 @@
+{
+  "name": "blender-qc-audit",
+  "description": "Headless QC audit for Blender scenes built or edited by AI agents: physics plausibility (floating, sinking, interpenetration, support, scale, simulations, animation), camera framing, lighting, materials and Blender 4.x-5.x API traps, plus rendered evidence views.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ahmed Eltigani"
+  },
+  "repository": "https://github.com/ELTIGA/blender-qc-audit",
+  "license": "MIT"
+}

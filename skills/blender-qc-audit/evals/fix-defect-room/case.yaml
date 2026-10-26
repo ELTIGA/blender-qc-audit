@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: fix-defect-room
+expected_outcome: |
+  fixed_room.blend is saved with every prop kept. The planted defects are fixed: the crate rests on
+  the table instead of hovering 10 cm, the mug sits on the table top instead of 3 cm inside it, the
+  1.2 m coffee cup and 4.5 m door are scaled to real sizes, the hidden helper no longer renders, the
+  missing texture is no longer used, the normal map is Non-Color, inverted normals are flipped, the
+  duplicate chair back is gone, the book glued to the wall in mid-air gets a support, and the
+  falling ball no longer eases into the floor. The response summarises the changes.
+context:
+  scaffold_script: place-files.sh

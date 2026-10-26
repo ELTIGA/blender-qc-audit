@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: stylized-floating-islands
+expected_outcome: |
+  islands.blend and a non-blank islands_preview.png exist. Three islands float well above the sea
+  (the requested creative exception is respected, not "fixed"), while the cottage still sits
+  physically on the biggest island (no hovering, no sinking). The camera frames all islands and
+  the cottage. The response says the floating was kept deliberately.

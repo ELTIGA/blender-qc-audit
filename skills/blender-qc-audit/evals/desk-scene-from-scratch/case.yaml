@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: desk-scene-from-scratch
+expected_outcome: |
+  desk_scene.blend and a non-blank 1280x720 desk_preview.png exist. Desk, mug and lamp have
+  real-world sizes; mug, lamp and books rest on the desk top (within 5 mm, no sinking); the three
+  books form a real stack; the desk stands on the floor; no two objects interpenetrate; the mug is
+  fully in frame and unoccluded.
