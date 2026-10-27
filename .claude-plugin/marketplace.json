@@ -4,13 +4,13 @@
     "name": "Ahmed Eltigani"
   },
   "metadata": {
-    "description": "Headless QC audit for Blender scenes built or edited by AI agents."
+    "description": "Blender 3D modeling & scene engineering skill paired with its counterpart headless QC audit skill for AI agents."
   },
   "plugins": [
     {
       "name": "blender-qc-audit",
       "source": "./",
-      "description": "Headless QC audit for Blender scenes built or edited by AI agents: physics plausibility, camera, lighting, materials, API traps, rendered evidence."
+      "description": "Blender 3D modeling & scene engineering (3d-modeling) + headless QC audit (blender-qc-audit): topology, modifier workflows, fast bpy scripting, PBR/AgX look-dev, physics plausibility, camera, lighting, materials, API traps, and rendered evidence."
     }
   ]
 }

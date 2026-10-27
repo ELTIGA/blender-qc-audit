@@ -127,7 +127,7 @@ tolerances, or waiving what the user would call a mistake makes the report a lie
 
 ## Writing or fixing bpy for this scene
 
-The audit catches results; these keep you from producing them. Read `references/headless-gotchas.md`
+The audit catches results; these keep you from producing them. When building or remodelling topology, modifier stacks, materials, UVs or high-performance `bpy` generators, pair this skill with its counterpart **`3d-modeling`** skill (`skills/3d-modeling/SKILL.md`). Read `references/headless-gotchas.md`
 before writing non-trivial headless bpy, and `references/blender-api-changes.md` when targeting
 Blender 4.x-5.x (check `bpy.app.version` - training data lags the API). The ones that bite most:
 - Run scripts as `blender -b file.blend --python-exit-code 1 --python x.py -- args`: the .blend

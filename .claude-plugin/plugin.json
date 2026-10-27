@@ -1,7 +1,7 @@
 {
   "name": "blender-qc-audit",
-  "description": "Headless QC audit for Blender scenes built or edited by AI agents: physics plausibility (floating, sinking, interpenetration, support, scale, simulations, animation), camera framing, lighting, materials and Blender 4.x-5.x API traps, plus rendered evidence views.",
-  "version": "0.1.0",
+  "description": "Blender 3D modeling & scene engineering skill (3d-modeling) paired with its counterpart headless QC audit skill (blender-qc-audit) for AI agents: production topology, modifier stacks, high-performance bpy scripting, physically plausible PBR/AgX look-dev, physics plausibility, camera framing, lighting, materials, Blender 4.x-5.x API traps, and rendered evidence views.",
+  "version": "0.2.0",
   "author": {
     "name": "Ahmed Eltigani"
   },

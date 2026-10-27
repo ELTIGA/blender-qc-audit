@@ -1,10 +1,9 @@
-# blender-qc-audit
+# blender-qc-audit (+ `3d-modeling` counterpart skill)
 
-A QC skill for AI coding agents (Claude Code and other agents that load `SKILL.md` skills) that
-build or edit Blender scenes. After the agent touches a scene, it runs a **headless, read-only
-audit of the saved `.blend`**. The audit checks physical plausibility, camera, lighting,
-materials and Blender API traps, and renders evidence views for the agent to look at before it
-says "done".
+Two counterpart Blender skills for AI coding agents (Claude Code and other agents that load `SKILL.md` skills):
+
+1. **[`skills/3d-modeling`](skills/3d-modeling/SKILL.md)** — **Build & Engineer**: guides the agent *while* creating or modifying Blender scenes (production topology, non-destructive modifier stacks, Sculpt/retopo/UV/baking workflows, high-performance `bpy`/`bmesh`/`numpy` scripting without `bpy.ops` loop stalls, physically plausible PBR albedo/roughness bounds, micro-bevels, `Non-Color` data maps, AgX look-dev, Cycles/EEVEE Next optimization, and Blender 4.0–5.2+ API compatibility).
+2. **[`skills/blender-qc-audit`](skills/blender-qc-audit/SKILL.md)** — **Verify & Audit**: after the agent touches a scene, it runs a **headless, read-only audit of the saved `.blend`**. The audit checks physical plausibility, camera, lighting, materials and Blender API traps, and renders evidence views for the agent to look at before it says "done".
 
 ![Contact sheet: front / right / top / iso Workbench views with walls hidden](docs/example_contact_sheet.png)
 
@@ -53,9 +52,10 @@ Blender 4.0 → 5.2 API changes (verified on 5.2.3), plus physics thresholds and
 /plugin install blender-qc-audit@blender-qc-audit
 ```
 
-**Plain skill folder** (Claude Code or any agent that reads `SKILL.md`):
+**Plain skill folders** (Claude Code or any agent that reads `SKILL.md`):
 ```bash
 git clone https://github.com/ELTIGA/blender-qc-audit.git
+cp -R blender-qc-audit/skills/3d-modeling ~/.claude/skills/
 cp -R blender-qc-audit/skills/blender-qc-audit ~/.claude/skills/
 ```
 
